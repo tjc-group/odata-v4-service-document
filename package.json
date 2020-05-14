@@ -1,6 +1,6 @@
 {
   "name": "@tjc-group/odata-v4-service-document",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "OData service document",
   "main": "lib/serviceDocument.js",
   "bugs": {
@@ -27,8 +27,8 @@
   },
   "dependencies": {
     "extend": "^3.0.0",
-    "@tjc-group/odata-v4-metadata": "^0.1.6",
-    "@tjc-group/odata-v2-service-metadata": "^0.0.2",
+    "@tjc-group/odata-v4-metadata": "^0.1.7",
+    "@tjc-group/odata-v2-service-metadata": "^0.0.5",
     "rimraf": "^2.6.1"
   },
   "devDependencies": {
