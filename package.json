@@ -1,15 +1,15 @@
 {
-  "name": "odata-v4-service-document",
-  "version": "0.0.4",
+  "name": "@tjc-group/odata-v4-service-document",
+  "version": "0.0.5",
   "description": "OData service document",
   "main": "lib/serviceDocument.js",
   "bugs": {
-    "url": "https://github.com/jaystack/odata-v4-service-document/issues"
+    "url": "https://github.com/tjc-group/odata-v4-service-document/issues"
   },
-  "homepage": "https://github.com/jaystack/odata-v4-service-document#readme",
+  "homepage": "https://github.com/tjc-group/odata-v4-service-document#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaystack/odata-v4-service-document.git"
+    "url": "git+https://github.com/tjc-group/odata-v4-service-document.git"
   },
   "keywords": [
     "OData",
@@ -27,15 +27,15 @@
   },
   "dependencies": {
     "extend": "^3.0.0",
-    "odata-v4-metadata": "^0.1.2",
-    "odata-v4-service-metadata": "^0.1.4",
+    "@tjc-group/odata-v4-metadata": "^0.1.6",
+    "@tjc-group/odata-v2-service-metadata": "^0.0.2",
     "rimraf": "^2.6.1"
   },
   "devDependencies": {
-    "@types/express": "^4.0.36",
-    "chai": "^3.4.1",
-    "mocha": "^2.4.5",
-    "typescript": "^2.5.1"
+    "@types/express": "^4.17.6",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "typescript": "^3.9.2"
   },
   "scripts": {
     "prebuild": "rimraf lib",
@@ -43,5 +43,9 @@
     "pretest": "npm run build",
     "test": "mocha tests",
     "prepublish": "npm run build"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
   }
 }

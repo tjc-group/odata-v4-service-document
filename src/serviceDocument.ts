@@ -1,5 +1,5 @@
-import { Edm } from 'odata-v4-metadata'
-import { ServiceMetadata } from 'odata-v4-service-metadata'
+import { Edm } from '@tjc-group/odata-v4-metadata'
+import { ServiceMetadata } from '@tjc-group/odata-v2-service-metadata'
 import { JsonDocument } from './JsonDocument'
 import { Request, Response, RequestHandler } from 'express';
 
